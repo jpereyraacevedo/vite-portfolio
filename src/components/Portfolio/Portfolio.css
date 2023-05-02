@@ -1,0 +1,55 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--grey-background);
+  border: 1px solid var(--main-text-color);
+  transition: .2s;
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+  padding: 1.5rem;
+}
+
+.portfolio-card:hover {
+  border: 1px solid var(--main-title-color);
+  .title-card-style {
+    color: var(--main-title-color);
+  }
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-logo {
+    height: 1.2rem;
+}
+
+.title-card-style {
+  color: var(--main-text-color);
+  transition: .2s;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.paragraph-card-style {
+  color: var(--main-text-color);
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}

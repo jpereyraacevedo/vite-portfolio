@@ -1,0 +1,47 @@
+:root {
+  --main-text-color: #f1f1f1;
+  --main-bg-color: #1c1c1c;
+  --main-title-color: #54ecc4;
+  --grey-background: #2d2d2d;
+  --main-font-text: "Schibsted Grotesk", sans-serif;
+  --list-font: "Chivo Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: var(--main-font-text);
+}
+
+main, section {
+  background-color: var(--main-bg-color);
+  background-image: url(../src/assets/noise.png);
+}
+
+ul {
+  list-style: none;
+  font-family: var(--list-font);
+}
+
+li {
+  display: inline-block;
+  color: var(--main-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .2s;
+}
+
+a:hover {
+  color: var(--main-title-color);
+}
+
+.container {
+  max-width: 50vw;
+}

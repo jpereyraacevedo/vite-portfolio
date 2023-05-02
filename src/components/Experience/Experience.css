@@ -1,0 +1,37 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.experience-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-gap: 2rem;
+}
+
+.subtitle-card-style {
+  color: var(--main-text-color);
+  font-size: 1rem;
+}
+
+.year-card {
+  color: var(--main-text-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 4 / 2;
+}
+.div2 {
+  grid-area: 3 / 2 / 6 / 3;
+}
+.div3 {
+  grid-area: 5 / 1 / 8 / 2;
+}
+.div4 {
+  grid-area: 7 / 2 / 10 / 3;
+}
